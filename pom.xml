@@ -16,7 +16,7 @@
     <repositories>
     <repository>
         <id>CT417Student-Repo</id>
-        <url>https://github.com/breshii/CT417Student-Repo</url>
+        <url>https://github.com/breshii/CT417Student-Repo/tree/master</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
