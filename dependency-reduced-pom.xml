@@ -35,7 +35,7 @@
         <updatePolicy>always</updatePolicy>
       </snapshots>
       <id>CT417Student-Repo</id>
-      <url>https://github.com/breshii/CT417Student-Repo</url>
+      <url>https://github.com/breshii/CT417Student-Repo/tree/master</url>
     </repository>
   </repositories>
   <properties>

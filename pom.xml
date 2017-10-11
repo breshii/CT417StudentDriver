@@ -6,23 +6,22 @@
   <artifactId>StudentDriver</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>StudentDriver</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  
     <repositories>
-    <repository>
-        <id>CT417Student-Repo</id>
-        <url>https://github.com/breshii/CT417Student-Repo/tree/master</url>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-        </snapshots>
-    </repository>
-</repositories> 
+    	<repository>
+       	 	<id>CT417Student-Repo</id>
+        	<url>https://github.com/breshii/CT417Student-Repo/tree/master</url>
+    	</repository>
+	</repositories> 
+	
   <dependencies>
   	<dependency> 
   		<groupId>ie.nuigalway.brendan</groupId>
