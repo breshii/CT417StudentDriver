@@ -36,8 +36,10 @@ public class App
         m4.addStudent(d);
         ArrayList<Module> modules = new ArrayList<Module>();
         modules.add(m1);modules.add(m2);modules.add(m3);modules.add(m4);
-        CourseProgram cp = new CourseProgram("courseName", modules, null, null);
+        
+        CourseProgram cp = new CourseProgram("MESP Course", modules, null, null);
         System.out.println("Course Name: " + cp.getCourseName());
+        
         for (Module m : cp.getModuleList()){
         	System.out.println("Module Name: " + m.getModuleName());
         	System.out.println("Registered Students: ");
